@@ -7,7 +7,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 const VerifyEmailPage = () => {
   const router = useRouter();
-  const [token, setToken] = useState<any>([]);
+  const [token, setToken] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [verified, setVerified] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);

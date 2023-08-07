@@ -20,8 +20,8 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
-  fotgotPasswordToken: String,
-  forgotPassswordTokenExpiry: Date,
+  forgotPasswordToken: String,
+  forgotPasswordTokenExpiry: Date,
   verifyToken: String,
   verifyTokenExpiry: Date,
 });
