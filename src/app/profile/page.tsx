@@ -43,12 +43,12 @@ const UserProfilePage = () => {
         <div className="flex justify-center">
           <img
             src="https://via.placeholder.com/150"
-            alt={`${user.username} avatar`}
+            alt={`${user?.username} avatar`}
             className="h-20 w-20 rounded-full"
           />
         </div>
         <h2 className="mt-4 text-center text-xl font-semibold text-gray-800">
-          {isLoading ? "Loading..." : user.username}
+          {isLoading ? "Loading..." : user?.username}
         </h2>
         <p className="mt-2 text-center text-gray-500">{user?.email}</p>
         <div className="mt-6">
