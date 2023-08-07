@@ -35,9 +35,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-- ISRAR KHAN - Github: (<https://github.com/israromar>)
-- Repo link - (<https://github.com/israromar/nextjs-auth>)
-- Live app link - (<https://nextjs-auth-brown-five.vercel.app/>)
+- ISRAR KHAN - Github: <https://github.com/israromar>
+- Repo link - <https://github.com/israromar/nextjs-auth>
+- Live app link - <https://nextjs-auth-brown-five.vercel.app/>
 - Changes made:
   - Improve the UI of the application, added [Tailwind Components](https://tailwindui.com/components)
   - Add basic home screen
