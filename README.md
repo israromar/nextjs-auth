@@ -35,7 +35,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-- ISRAR KHAN - [Github](https://github.com/israromar){:target="_blank"}
+- ISRAR KHAN - [Github](https://github.com/israromar)
 - [NESTJS-FULLSTACK-AUTH-GITHUB-LINK](https://github.com/israromar/nextjs-auth)
 - [DEPLOYED-LIVE-APP](https://nextjs-auth-brown-five.vercel.app/) on [Vercel](https://vercel.com/)
 
