@@ -6,6 +6,7 @@ export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname;
 
   const isPublicPath =
+    path === "/" ||
     path === "/signin" ||
     path === "/signup" ||
     path === "/verifyemail" ||
