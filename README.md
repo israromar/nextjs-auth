@@ -35,10 +35,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-- ISRAR KHAN - [Github](https://github.com/israromar)
+- ISRAR KHAN - [Github](https://github.com/israromar){:target="_blank"}
 - [NESTJS-FULLSTACK-AUTH-GITHUB-LINK](https://github.com/israromar/nextjs-auth)
 - [DEPLOYED-LIVE-APP](https://nextjs-auth-brown-five.vercel.app/) on [Vercel](https://vercel.com/)
--
+
 - Changes made:
   - Improve the UI of the application, added [Tailwind Components](https://tailwindui.com/components)
   - Add basic home screen
