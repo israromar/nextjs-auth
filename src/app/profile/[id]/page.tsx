@@ -23,10 +23,7 @@ const UserProfile = ({ params }: any) => {
         <p className="mt-2 text-center text-gray-500">{user.email}</p>
         <div className="mt-6">
           <button className="w-full bg-indigo-600 text-white font-semibold rounded-md py-2 px-4 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-1">
-            Edit Profile
-          </button>
-          <button className="mt-3 w-full text-center text-gray-500 font-semibold hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-1">
-            Log Out
+            Contact
           </button>
         </div>
       </div>

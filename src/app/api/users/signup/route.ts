@@ -9,7 +9,6 @@ export async function POST(request: NextRequest) {
   try {
     const reqBody = await request.json();
     const { username, email, password } = reqBody;
-    console.log(reqBody);
 
     // check if user exists
     const user = await User.findOne({ email });
@@ -30,7 +29,6 @@ export async function POST(request: NextRequest) {
     });
 
     const savedUser = await newUser.save();
-    console.log("🚀 ~ file: route.ts:33", { savedUser });
 
     return NextResponse.json({
       message: "User created successfully.",

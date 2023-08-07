@@ -20,10 +20,10 @@ export default function HomePage() {
       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
         <p className="mt-10 text-center text-sm text-gray-500">
           <Link
-            href="/signin"
+            href="/profile"
             className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
           >
-            LOGOUT
+            PROFILE
           </Link>
         </p>
       </div>

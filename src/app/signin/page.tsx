@@ -28,7 +28,6 @@ export default function SigninPage() {
     try {
       setIsLoading(true);
       const response = await axios.post("../api/users/signin", user);
-      console.log("signin response", response);
       if (response.data.success) {
         router.push("/home");
       } else {
