@@ -68,6 +68,9 @@ export default function EditProfilePage() {
         );
         if (response?.data?.success) {
           toast.success("Profile updated Successfully!");
+          if (updateEmail) {
+            toast.success("Check your email for verification");
+          }
           router.push("/profile");
         } else {
           toast.error(response?.data?.message);
