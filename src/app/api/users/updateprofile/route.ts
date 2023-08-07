@@ -1,4 +1,5 @@
 import connect from "@/dbConfig/dbConfig";
+import { sendEmail } from "@/helpers/mailer";
 import User from "@/models/userModel";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -29,6 +30,14 @@ export async function POST(request: NextRequest) {
         );
       }
       user.email = newEmail;
+      user.isVerified = false;
+
+      // send verification email on email update
+      await sendEmail({
+        email: newEmail,
+        emailType: "VERIFY",
+        userId: user._id,
+      });
     }
 
     if (updateUsername) {
