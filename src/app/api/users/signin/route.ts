@@ -27,6 +27,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // check if email is verified
+    if (!user.isVerified) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: "To access your account, please verify your email address",
+        },
+        { status: 400 }
+      );
+    }
+
     // create token data
     const tokenData = {
       id: user._id,
