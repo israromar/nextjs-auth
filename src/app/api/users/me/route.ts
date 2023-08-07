@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDataFromToken } from "@/helpers/getDataFromToken";
 import User from "@/models/userModel";
-import connect from "@/dbConfig/dbConfig";
 
 export async function GET(request: NextRequest) {
   try {

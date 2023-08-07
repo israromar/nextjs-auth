@@ -6,7 +6,11 @@ export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname;
 
   const isPublicPath =
-    path === "/signin" || path === "/signup" || path === "/verifyemail";
+    path === "/signin" ||
+    path === "/signup" ||
+    path === "/verifyemail" ||
+    path === "forgot-password" ||
+    path === "/reset-password";
   const token = request.cookies.get("token")?.value || "";
 
   if (isPublicPath && token) {
@@ -20,5 +24,14 @@ export function middleware(request: NextRequest) {
 
 // See "Matching Paths" below to learn more
 export const config = {
-  matcher: ["/", "/signin", "/signup", "/profile", "/home", "/verifyemail"],
+  matcher: [
+    "/",
+    "/signin",
+    "/signup",
+    "/profile",
+    "/home",
+    "/verifyemail",
+    "forgot-password",
+    "reset-password",
+  ],
 };
