@@ -33,5 +33,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-- ISRAR KHAN - (<https://github.com/israromar/nextjs-auth>)
-- Live App - <https://nextjs-auth-brown-five.vercel.app>
+---
+
+- ISRAR KHAN - Github: (<https://github.com/israromar>)
+- Repo link - (<https://github.com/israromar/nextjs-auth>)
+- Live app link - (<https://nextjs-auth-brown-five.vercel.app/>)
+- Changes made:
+  - Improve the UI of the application, added [Tailwind Components](https://tailwindui.com/components)
+  - Add basic home screen
+  - Add feature of forgot password
+  - Add feature of edit profile (username & email address)
+  - Put email verification check for signin api
+
+---
